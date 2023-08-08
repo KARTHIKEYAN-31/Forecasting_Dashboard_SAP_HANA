@@ -47,6 +47,40 @@ Second is to create a dashboard to display the forecasted data and stat of the d
 
 
 
+## app - Dashboard ##
+
+The idea is to ceate a Dashboard using streamlit to visulize the forecasted data and stat of Demand to the user. As in this project i didn't used the live data connection, I had created a data entry UI to update the data into the HANA DB manually.
+
+### 1. Connect with HANA DB and access the Tables ###
+
+> Steps:
+>> * Connect to the table using hana_ml library
+>> * Extract the data from Training table, Prediction table and Stat Table
+
+### 2. Updata the data to the training table if entered ###
+
+> Steps:
+>> * If user choose to enter the data, check the last data of training table and get the next data from the user
+>> * Updata the value to the training table
+
+### 3. Visualize the data ###
+
+> Steps:
+>> * Create two columns
+>> * Join training data and predicted data and plot it using plotly libray in first column
+>> * Then process the data to get the detailed data from timestamp
+>> * Plot the box plot in alternate column to show the stat of the data
+>> * Write the predicted data and stat of trained model
+
+### 4. Deploy the Application ###
+
+> Steps:
+>> * Push the code to git repo
+>> * Deploy the streamlit app 
+
+
+
+
 
 
 
