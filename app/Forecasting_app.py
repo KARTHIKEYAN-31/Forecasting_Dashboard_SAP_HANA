@@ -125,3 +125,11 @@ if st.button('Explore and Forecast Data'):
             with fig_col1:
                 fig = px.box(df2, x=i, y="megawatthours")
                 fig
+
+    hana_training_stat = cc.table('TRAINING_STAT', schema='DBADMIN')
+    training_stat = hana_training_stat.collect()
+
+    with fig_col1:
+        st.write(prediction_df)
+    with fig_col2:
+        st.write(training_stat.tail())
