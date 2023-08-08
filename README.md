@@ -10,7 +10,7 @@ Second is to create a dashboard to display the forecasted data and stat of the d
 
 ### 1. The plan is to create a python file, which need to forecast the data and store back to HANA Cloud DB ###
 
-    Steps:
+Steps:
       --- Connect with HANA DB using hana_ml library
       --- Extract Training data from HANA DB
       --- Pre process the data
@@ -19,14 +19,14 @@ Second is to create a dashboard to display the forecasted data and stat of the d
 
 ### 2. Create the required Files to deploy the python file as task into the SAP BTP Floudry ###
 
-    Steps:
+Steps:
       --- Create runtime.txt file by mention the runtime environment
       --- Create requirements.txt file by mention the python libraries used
       --- Create a manifest.yml file to mention the features of application to deploy in the Cloud Foundry
 
 ### 3. Deploy the Python file as Task into the Cloud Foundry ###
 
-    Steps:
+Steps:
       --- install cloud foundry in the system you are running the fiel
       --- use 'cf login' to login into the Cloud Foundry. Use SAP BTP mail and password.
       --- If you have multiple space selecte the space where you want to deploy the task.
@@ -34,7 +34,7 @@ Second is to create a dashboard to display the forecasted data and stat of the d
 
 ### 4. Schedule the Python Task to run for every hour ###
 
-    Steps:
+Steps:
       --- Create SheduleJob and xsaa instance in SAP BTP
       --- Create a shedule job for the task you deploy in previous step
       --- Click on Task and create new task
