@@ -132,4 +132,4 @@ if st.button('Explore and Forecast Data'):
     with fig_col1:
         st.write(prediction_df)
     with fig_col2:
-        st.write(training_stat.tail())
+        st.write(training_stat.tail(1))
