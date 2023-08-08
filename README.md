@@ -47,7 +47,7 @@ Second is to create a dashboard to display the forecasted data and stat of the d
 
 
 
-## app - Dashboard ##
+## App - Dashboard ##
 
 The idea is to ceate a Dashboard using streamlit to visulize the forecasted data and stat of Demand to the user. As in this project i didn't used the live data connection, I had created a data entry UI to update the data into the HANA DB manually.
 
