@@ -11,9 +11,9 @@ Second is to create a dashboard to display the forecasted data and stat of the d
 ### 1. The plan is to create a python file, which need to forecast the data and store back to HANA Cloud DB ###
 
 > Steps:
-      >> * Connect with HANA DB using hana_ml library
-      * Extract Training data from HANA DB
-      * Pre process the data
+>> * Connect with HANA DB using hana_ml library
+>> * Extract Training data from HANA DB
+>> * Pre process the data
       * Train the model and Forecast the data for next 3 months
       * Save the stat of model and forecasted data into the HANA DB
 
