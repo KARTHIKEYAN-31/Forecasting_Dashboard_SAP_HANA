@@ -1,0 +1,12 @@
+---
+applications:
+- name: Demand_forecast
+  random-route: true
+  path: ./
+  memory: 1000M
+  disk_quota: 1500M
+  instances: 1
+  buildpack: python_buildpack
+  command: python Demand_forecast.py
+  env:
+    FLASK_ENV: production

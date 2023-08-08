@@ -1,0 +1,10 @@
+pandas
+numpy
+pyod
+gunicorn
+hana_ml
+hdbcli
+sklearn
+xgboost
+datetime
+shapely

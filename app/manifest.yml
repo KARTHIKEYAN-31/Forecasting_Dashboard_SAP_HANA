@@ -1,0 +1,10 @@
+---
+applications:
+- name: US Electricity Demand Analysis
+  random-route: true
+  path: ./
+  memory: 200M
+  disk_quota: 500M
+  instances: 1
+  buildpack: python_buildpack
+  command: python Forecasting_app.py
