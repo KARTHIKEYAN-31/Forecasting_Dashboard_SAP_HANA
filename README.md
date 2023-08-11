@@ -1,4 +1,4 @@
-# US ELECTRICITY DEMAND FORECAST AND ANALYTICS USING SAP AND PYTHON #
+# US ELECTRICITY DEMAND FORECAST AND ANALYTICS USING SAP HANA CLOUD AND PYTHON #
 
 The goal of the project is to forecast the realtime data of US electricity demand per hour for next 3 months, using SAP HANA, SAP BTP, Visualization tools, Python.
 
