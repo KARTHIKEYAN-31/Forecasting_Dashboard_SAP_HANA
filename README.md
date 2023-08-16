@@ -6,6 +6,11 @@ The Project divided into two parts,
 One is to develop, deploy, shedule a python task file in SAP BTP CF, which need to extract the data from SAP HANA Cloud, forecast the data and save it in another table fo HANA cloud. 
 Second is to create a dashboard to display the forecasted data and stat of the data to the user. 
 
+
+## Architecture ##
+
+![alt text](https://github.com/KARTHIKEYAN-31/Forecasting_Dashboard_SAP_HANA/blob/main/Images/hana-forecast.PNG)
+
 ## Forecasting Task ##
 
 ### 1. The plan is to create a python file, which need to forecast the data and store back to HANA Cloud DB ###
