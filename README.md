@@ -10,6 +10,7 @@ Second is to create a dashboard to display the forecasted data and stat of the d
 ## Architecture ##
 
 ![alt text](https://github.com/KARTHIKEYAN-31/Forecasting_Dashboard_SAP_HANA/blob/main/Images/hana-forecast.PNG)
+<img src="[image URL](https://github.com/KARTHIKEYAN-31/Forecasting_Dashboard_SAP_HANA/blob/main/Images/hana-forecast.PNG" width="100" height="100">
 
 ## Forecasting Task ##
 
