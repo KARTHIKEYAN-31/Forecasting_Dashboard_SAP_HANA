@@ -23,10 +23,10 @@ hana = env.get_service(name=HANA_SERVICE)
 
 
 # Instantiate connection object
-db_url = 'e1bc9e12-6a46-4758-ab57-a7dead9396fa.hana.trial-us10.hanacloud.ondemand.com'
+db_url = st.secrets["HDB_URL"]
 db_port = 443
-db_user = 'DBADMIN'
-db_pwd = 'Karthi31@tvm'
+db_user = st.secrets["HDB_USER"]
+db_pwd = st.secrets["HDB_PWD"]
 cc = ConnectionContext(db_url, db_port, db_user, db_pwd)
 
 st.write('connection created successfully')
